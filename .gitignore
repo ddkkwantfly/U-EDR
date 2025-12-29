@@ -1,24 +1,19 @@
-# Python
+# data
+*.mat
+
+# checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# python
 __pycache__/
-*.py[cod]
-*.egg-info/
+*.pyc
 
-# Virtual environments
-venv/
-.env/
-
-# IDE
-.vscode/
-.idea/
-
-# Data
-data/*
-!data/README.md
-
-# Logs & checkpoints
+# outputs
+results/
+outputs/
 logs/
-checkpoints/
 
-# OS
-Thumbs.db
+# system
 .DS_Store
